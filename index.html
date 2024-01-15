@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Kubadili</title>
+    <style>
+      form {
+        padding: 40px;
+        font-size: 16px;
+      }
+
+      .autodiagnostico {
+        padding-right: 200px;
+        text-align: justify;
+      }
+
+      input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        margin-bottom: 20px;
+        background-color: #efeff4;
+      }
+
+      label,
+      select,
+      input {
+        margin-right: 20px;
+      }
+
+      input,
+      select {
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: #efeff4;
+        border-color: #efeff4;
+      }
+
+      input[type="submit"] {
+        padding: 10px 40px;
+        background-color: #f0d547;
+        color: #52398d;
+        font-size: 20px;
+        font-weight: bold;
+        border-color: #f0d547;
+        cursor: pointer;
+      }
+
+      h1 {
+        color: #7b56d4;
+        border-bottom: 2px solid #63d6cc;
+        display: block;
+        padding-bottom: 5px;
+        width: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+
+    <form
+      action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8orgId=00DHr000001t5dc"
+      method="POST"
+    >
+      <h1>Autodiagnóstico Kubadili</h1>
+      <input type="hidden" name="oid" value="00DHr000001t5dc" />
+      <input type="hidden" name="retURL" value="http://" />
+
+      <label for="first_name">Nombre</label
+      ><input
+        id="first_name"
+        maxlength="40"
+        name="first_name"
+        size="20"
+        type="text"
+      /><br />
+      <br />
+
+      <label for="last_name">Apellidos</label
+      ><input
+        id="last_name"
+        maxlength="80"
+        name="last_name"
+        size="20"
+        type="text"
+      /><br />
+      <br />
+
+      <label for="email">Correo electrónico</label
+      ><input
+        id="email"
+        maxlength="80"
+        name="email"
+        size="20"
+        type="text"
+      /><br />
+      <br />
+      <label for="company">Organización</label
+      ><input
+        id="company"
+        maxlength="40"
+        name="company"
+        size="20"
+        type="text"
+      /><br />
+      <br />
+      <label for="industry">Sector</label
+      ><select id="industry" name="industry">
+        <option value="">--Ninguno--</option>
+        <option value="ONG">ONG</option>
+        <option value="Empresa Social">Empresa Social</option>
+        <option value="Empresa">Empresa</option>
+        <option value="Gobierno">Gobierno</option>
+        <option value="Donante">Donante</option>
+        <option value="Fondo">Fondo</option></select
+      ><br />
+      <br />
+      <label>Alcance:</label
+      ><select id="00NHr00000LtZJA" name="00NHr00000LtZJA" title="Alcance">
+        <option value="">--Ninguno--</option>
+        <option value="Local">Local</option>
+        <option value="Nacional">Nacional</option>
+        <option value="Regional/Internacional">
+          Regional/Internacional
+        </option></select
+      ><br />
+      <br />
+      <label>N° de Empleados: </label
+      ><select
+        id="00NHr00000LujPP"
+        name="00NHr00000LujPP"
+        title="N° de Empleados"
+      >
+        <option value="">--Ninguno--</option>
+        <option value="No sé">No sé</option>
+        <option value="Somos un equipo de voluntarios">
+          Somos un equipo de voluntarios
+        </option>
+        <option value="Menos de 10">Menos de 10</option>
+        <option value="Entre 10 y 25">Entre 10 y 25</option>
+        <option value="Entre 25 y 50">Entre 25 y 50</option>
+        <option value="Más de 50">Más de 50</option></select
+      ><br />
+      <br />
+
+      &#x2713; ¿Las personas mantienen el foco en un único objetivo?<input
+        id="00NHr00000TGgcZ"
+        name="00NHr00000TGgcZ"
+        type="checkbox"
+        value="1"
+      /><br />
+
+      <div class="autodiagnostico">
+        &#x2713; ¿La organización cuenta con propósito definido que se conoce y
+        comparte?
+        <input
+          id="00NHr00000TGghV"
+          name="00NHr00000TGghV"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Principios y valores conocidos y compartidos que son la base
+        de las decisiones?
+        <input
+          id="00NHr00000TGh74"
+          name="00NHr00000TGh74"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Revisiones periódicas y medios de comunicación abierta para
+        compartir la información del avance?<input
+          id="00NHr00000TH5sM"
+          name="00NHr00000TH5sM"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Personas participan activamente y con confianza en los retos y
+        situaciones diarias manifestando objetiva y abiertamente sus criterios?
+        <input
+          id="00NHr00000TH5nW"
+          name="00NHr00000TH5nW"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Las personas saben que pueden expresarse con libertad y
+        asertividad, mostrándose tal como son, sin sentirse cuestionadas por
+        ello?
+        <input
+          id="00NHr00000TH5pc"
+          name="00NHr00000TH5pc"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Las personas saben que la organización confía en ellas y ellas
+        a su vez confían en la organización?
+        <input
+          id="00NHr00000TH5s7"
+          name="00NHr00000TH5s7"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Los implicados en los proyectos aceptan la variabilidad y
+        comprenden el valor que surge de la revisión y reconsideración continua
+        de los requisitos?<input
+          id="00NHr00000TIAOY"
+          name="00NHr00000TIAOY"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿El equipo puede trabajar con un primer prototipo funcional
+        para arrancar el proyecto y hacer cambios y mejoras según sea
+        necesario?<input
+          id="00NHr00000TIAkj"
+          name="00NHr00000TIAkj"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Se entregan, al menos mensualmente, partes del proyecto que el
+        donante o la comunidad puede utilizar y probar?<input
+          id="00NHr00000TIBeI"
+          name="00NHr00000TIBeI"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿El ambiente laboral de la organización es profesionalmente
+        enriquecedor y socialmente sano?
+        <input
+          id="00NHr00000TH5sv"
+          name="00NHr00000TH5sv"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Potenciar y mejorar el desarrollo profesional de las personas
+        es un objetivo estratégico de la organización?<input
+          id="00NHr00000TIC8X"
+          name="00NHr00000TIC8X"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Los miembros del equipo, además de ser responsables de la
+        ejecución de las tareas, también priorizan y tienen capacidad de
+        decisión sobre la estrategia de la organización?
+        <input
+          id="00NHr00000TIC8c"
+          name="00NHr00000TIC8c"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿La organización es estable financieramente debido a la
+        diversidad de fondos?
+        <input
+          id="00NHr00000TIC8h"
+          name="00NHr00000TIC8h"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Todo el equipo implicado en el desarrollo de un proyecto
+        conoce, comprende y comparte la visión de lo que el donante o comunidad
+        necesita?
+        <input
+          id="00NHr00000TIC8m"
+          name="00NHr00000TIC8m"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Se le consulta frecuentemente al donante o la comunidad si el
+        proyecto responde a sus expectativas o necesidades?<input
+          id="00NHr00000TH5tK"
+          name="00NHr00000TH5tK"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿La organización diseña y facilita eventos efectivos,
+        participativos y alineados con el propósito?<input
+          id="00NHr00000TIC8r"
+          name="00NHr00000TIC8r"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        &#x2713; ¿Son estratégicas las sinergias y alianzas con otras
+        organizaciones para acelerar el impacto, compartir desafíos, recibir
+        recomendaciones y aprender de manera colaborativa?<input
+          id="00NHr00000TIC8w"
+          name="00NHr00000TIC8w"
+          type="checkbox"
+          value="1"
+        /><br />
+
+        <div style="display: none">
+          <label for="lead_source">Origen del candidato</label
+          ><select id="lead_source" name="lead_source">
+            <option value="Contacto Web">Contacto Web</option>
+          </select>
+        </div>
+
+        <br />
+      </div>
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
